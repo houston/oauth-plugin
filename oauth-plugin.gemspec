@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "oauth-plugin/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{oauth-plugin}
+  s.name = %q{houston-oauth-plugin}
   s.version = Oauth::Plugin::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
